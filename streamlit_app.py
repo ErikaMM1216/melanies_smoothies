@@ -51,5 +51,6 @@ if ingredients_list:
         st.success(f"Your Smoothie is ordered, {name_on_order}!", icon="✅")
 
 
+st.dataframe(fruit_df)
 
 
